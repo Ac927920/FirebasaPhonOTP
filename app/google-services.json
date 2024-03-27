@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034945442070",
+    "project_id": "otpdataaccess",
+    "storage_bucket": "otpdataaccess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034945442070:android:92d8ac1bc42429530fe037",
+        "android_client_info": {
+          "package_name": "com.example.otpdataaccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJIqNP5qjJxbtj8IqiH6cf_Izz3s4QmTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
