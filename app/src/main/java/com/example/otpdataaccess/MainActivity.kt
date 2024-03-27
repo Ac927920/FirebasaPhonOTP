@@ -3,14 +3,13 @@ import android.annotation.SuppressLint
 import android.app.PendingIntent
 import android.content.ContentValues
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.animation.Animation
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.identity.GetPhoneNumberHintIntentRequest
 import com.google.android.gms.auth.api.identity.Identity
 
@@ -19,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cc: EditText
     private lateinit var number: EditText
     private lateinit var submit: Button
-    private  lateinit var Animation : Animation
 
 
     @SuppressLint("ResourceType")
