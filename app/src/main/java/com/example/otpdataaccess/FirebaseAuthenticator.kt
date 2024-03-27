@@ -68,6 +68,15 @@ class FirebaseAuthenticator : OTPVerification {
     override fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
         Log.d("DATA1","Credential $credential")
         auth.signInWithCredential(credential)
+            .addOnCompleteListener{ task ->
+                if (task.isSuccessful) {
+                    Log.d("DATA1","Login Successful")
+                    val user = task.result?.user
+                    Log.d("DATA1","User from Sign $user")
+                } else {
+                    // Handle sign-in failure
+                }
+            }
 
     }
 }
